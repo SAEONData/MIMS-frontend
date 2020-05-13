@@ -11,7 +11,118 @@
  Tags:         mims,saeon
  Text Domain:  mims
 */
- body,html{
+body,html{
     margin:0;
     padding:0;
+    font-family: 'Open Sans', sans-serif;
+    color: #68768c;
+    font-size:14px;
  }
+body{
+   padding-top: 100px;
+}
+body .elementor-button {
+   background-color: #f58d36;
+   color: #fff;
+   fill: #fff;
+}
+.btn-white-hv .elementor-button:focus,.btn-white-hv .elementor-button:hover,.btn-white-hv .elementor-button:visited {
+   background-color:#fff;
+   color:#123d52;
+}
+ /* Header */
+.mims-header{
+   position: fixed;
+   top: 0;
+   width: 100%;
+   background: #123d52;
+   box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+   padding: 15px;
+   color: #fff;
+   z-index: 999;
+   height: 70px;
+}
+.mims-header hgroup{
+   font-size: 18px;
+   width: 315px;
+   font-weight: 100;
+   float: left;
+}
+.mims-header hgroup span{
+   position: absolute;
+   top: 27px;
+   left: 109px;
+   width: 200px;
+}
+.mims-header img{
+   max-height:70px;
+}
+.dea-logo{
+   float:right;
+   margin-right: 30px;
+   filter: brightness(0) invert(1);
+}
+#navigation{
+   position: absolute;
+   left: 300px;
+   right: 313px;
+   top: 42px;
+}
+#navigation a{
+   color: #fff;
+   text-decoration: none;
+}
+#navigation .sub-menu{
+   display:none;
+}
+#navigation ul{
+   list-style: none;
+   padding: 0;
+   margin: 0;
+}
+#navigation li{
+   float:left;
+   margin-right: 15px;
+}
+.menu-top-menu-container{
+   float: right;
+}
+/* Footer */
+#mims-footer {
+   background: #123d52;
+   color: #fff;
+   padding:30px 0;
+}
+/* Gird system */
+.mims-container {
+   max-width: 1140px;
+}
+.mims-container {
+   width: 100%;
+   padding-right: 15px;
+   padding-left: 15px;
+   margin-right: auto;
+   margin-left: auto;
+   max-width: 1140px;
+}
+.mims-row {
+   display: -ms-flexbox;
+   display: flex;
+   -ms-flex-wrap: wrap;
+   flex-wrap: wrap;
+   margin-right: -15px;
+   margin-left: -15px;
+}
+.mims-col,.mims-col-md-4 {
+   position: relative;
+   min-height: 1px;
+   display: -webkit-box;
+   display: -webkit-flex;
+   display: -ms-flexbox;
+   display: flex;
+}
+.mims-col-md-4 {
+   -ms-flex: 0 0 33.333%;
+   flex: 0 0 33.333%;
+   max-width: 33.333%;
+}

@@ -15,5 +15,34 @@ function my_theme_enqueue_styles() {
 add_action( 'wp_enqueue_scripts', 'my_theme_enqueue_styles' );
 
 
-//add wp-login logo
+//add widgets
+
+
+if ( function_exists('register_sidebar') ) {
+
+   register_sidebar(array(
+   'name' => 'Footer 1',
+   'before_widget' => '<div id="%1$s" class="widget %2$s">',
+   'after_widget' => '</div>',
+   'before_title' => '<h2>',
+   'after_title' => '</h2>'
+    ));
+
+   register_sidebar(array(
+   'name' => 'Footer 2',
+   'before_widget' => '<div id="%1$s" class="widget %2$s">',
+   'after_widget' => '</div>',
+   'before_title' => '<h2>',
+   'after_title' => '</h2>'
+   ));
+
+   register_sidebar(array(
+    'name' => 'Footer 3',
+    'before_widget' => '<div id="%1$s" class="widget %2$s">',
+    'after_widget' => '</div>',
+    'before_title' => '<h2>',
+    'after_title' => '</h2>'
+    ));
+};
+
 
