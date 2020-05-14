@@ -20,7 +20,12 @@
                 <?php endif;?>
             </div>
         </div>
-        <div class="mims-row"><p>Copyright <?php echo date("Y"); ?> Marine Information Management System</p></div>
+        
+    </div>
+    <div class="mims-bg-dark">
+    <div class="mims-container">
+        <p>Copyright <?php echo date("Y"); ?> Marine Information Management System</p>
+    </div>
     </div>
 
 </footer>
