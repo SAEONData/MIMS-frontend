@@ -18,4 +18,26 @@ jQuery(document).ready(function($) {
         console.log('leave');
         $(this).slideUp(300);
     });
+
+    /* Landing page */
+    $('body').on('mouseover','#Group_1_1_ g', function(){
+        var activegroup = $(this).attr('class');
+        if( $(activegroup).length != 'undefined' ){
+            $('g path').removeClass('active');
+            $('g.'+activegroup+' path').addClass('active');
+        }
+
+        //  Slider
+
+        $('#elementor-tab-title-9642').trigger('click');
+      
+        
+        // if( $('path').hasClass(activegroup) ){
+        //     $(this).addClass('active');
+        // }else{
+        //     $(this).removeClass('active');
+        // }
+        
+        console.log(activegroup);
+    });
 });

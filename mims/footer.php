@@ -7,16 +7,20 @@
 <footer id="mims-footer" role="contentinfo" >
     <div class="mims-container">
         <div class="mims-row">
-            <div class="mims-col-md-4">
+            <div class="mims-col-md-3">
                 <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar("Footer 1") ) : ?>
                 <?php endif;?>
             </div>
-            <div class="mims-col-md-4">
+            <div class="mims-col-md-3">
                 <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar("Footer 2") ) : ?>
                 <?php endif;?>
             </div>
-            <div class="mims-col-md-4">
+            <div class="mims-col-md-3">
                 <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar("Footer 3") ) : ?>
+                <?php endif;?>
+            </div>
+            <div class="mims-col-md-3">
+                <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar("Footer 4") ) : ?>
                 <?php endif;?>
             </div>
         </div>

@@ -18,8 +18,8 @@
 <body <?php body_class(); ?>>
 	<header class="mims-header" role="banner">
 		<hgroup>
-        <img src="<?php echo get_stylesheet_directory_uri() ?>/img/logo-mims.png " />
-		<span><?php bloginfo( 'description' ); ?></span>
+        <img src="<?php echo get_stylesheet_directory_uri() ?>/img/logo-icon.png " />
+		<span><strong>Marine Information</strong><br />Management System<?php// bloginfo( 'description' ); ?></span>
 		</hgroup>
 
 		<nav id="navigation" role="navigation">
@@ -32,7 +32,7 @@
 			);
 			?>
 		</nav><!-- #site-navigation -->
-        <img src="<?php echo get_stylesheet_directory_uri() ?>/img/logo.png " class="dea-logo" />
+        
 
 	</header><!-- #masthead -->
 
