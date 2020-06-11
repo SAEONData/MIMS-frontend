@@ -4,6 +4,7 @@
  */
 
 ?>
+
 <footer id="mims-footer" role="contentinfo" >
     <div class="mims-container">
         <div class="mims-row">
