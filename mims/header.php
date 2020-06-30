@@ -19,7 +19,7 @@
 	<header class="mims-header" role="banner">
 		<hgroup>
         <img src="<?php echo get_stylesheet_directory_uri() ?>/img/logo-icon.png " />
-		<span><strong>Marine Information</strong><br />Management System<?php// bloginfo( 'description' ); ?></span>
+		<span><strong>Marine Information Management System</strong><br />South Africa's oceans and coastal data archive<?php// bloginfo( 'description' ); ?></span>
 		</hgroup>
 
 		<nav id="navigation" role="navigation">

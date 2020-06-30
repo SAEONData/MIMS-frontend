@@ -14,6 +14,16 @@ jQuery(document).ready(function($) {
         //     $(this).slideUp(300);
         // });
     });
+    $(window).scroll(function(){
+        if($(this).scrollTop() > 150) {
+            $('.mims-header').addClass('scrollnav');
+            $('#more-scroll').fadeOut(300);
+        }
+        else{
+            $('.mims-header').removeClass('scrollnav');
+            $('#more-scroll').fadeIn(300); 
+        }
+    });
     $('body').on('mouseleave','.sub-menu.active', function(){
         console.log('leave');
         $(this).slideUp(300);
