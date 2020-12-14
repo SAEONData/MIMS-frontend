@@ -1,6 +1,15 @@
 
 jQuery(document).ready(function($) {
-    // console.log('hi');
+    /* Search */
+    $('body').on('submit', '.mims-search', function(e){
+		e.preventDefault();
+		var searchterm = $('.mims-search input').val();
+        // var searchurl = 'http://beta.data.ocean.gov.za/dataset/?q='
+        // var searchurlexten = '&sort=score+desc%2C+metadata_modified+desc'
+        var completeurl = 'http://beta.data.ocean.gov.za/dataset?q=' +searchterm+ '&sort=score+desc%2C+metadata_modified+desc'
+        // console.log(completeurl);
+		window.open(completeurl,'_blank');
+	});
     /* Navigation */
     var childmenu ='';
     $('.menu-item-has-children').on('mouseenter', function(){

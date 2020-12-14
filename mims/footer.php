@@ -32,11 +32,11 @@
         </div>
    </div>
 </section>
-<section class="footer-top elementor-element elementor-section-stretched shadow-top-inner elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-element_type="section" >
+<!-- <section class="footer-top elementor-element elementor-section-stretched shadow-top-inner elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-element_type="section" >
    <div class="elementor-container elementor-column-gap-default">
         <div class="elementor-text-editor elementor-clearfix"><strong>Latest data uploads: </strong> *dataset citation</div>
    </div>
-</section>
+</section> -->
 
 <footer id="mims-footer" role="contentinfo" >
     <div class="mims-container">
